@@ -21,7 +21,7 @@ curl -X POST "http://<Moodle-site>>/webservice/rest/server.php" \
  -d "moodlewsrestformat=json" \
  -d "courseid=2" \
  -d "sectionnum=1" \
- -d "activitytype=assignment" \
+ -d "activitytype=assign" \
  -d "name=My Assignment" \
  -d "intro=This is the assignment description." \
  -d "allowfrom=1688304000" \
